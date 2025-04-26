@@ -7,7 +7,7 @@ Proyek ini merupakan aplikasi deep learning untuk mengklasifikasi gambar tanaman
 ## Gambaran Proyek
 
 - Dataset berasal dari [Kaggle - Plant Classification](https://www.kaggle.com/datasets/marquis03/plants-classification).
-- Gambar dari folder train, val, dan test digabungkan dan dibagi ulang secara acak untuk keperluan training.
+- Dipilih 10 dari 30 jenis tanaman dan split data (train, val, test) digabungkan dan dibagi ulang secara acak untuk keperluan training.
 - Proyek ini bertujuan untuk membangun model klasifikasi gambar yang mampu mengenali spesies tanaman berdasarkan fitur visual.
 - Model yang telah dilatih kemudian dikonversi ke format TensorFlow.js, serta disimpan dalam format SavedModel dan TensorFlow Lite untuk keperluan deployment web dan mobile.
 
