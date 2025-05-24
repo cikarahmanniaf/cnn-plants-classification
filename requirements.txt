@@ -1,0 +1,13 @@
+os
+random
+numpy==2.0.2
+opencv-python==4.11.0.86
+matplotlib==3.10.0
+tqdm==4.65.0
+json
+warnings
+google-colab==1.0.0
+scikit-learn==1.0.2
+tensorflow==2.11.0
+tensorflowjs==4.0.0
+shutil
